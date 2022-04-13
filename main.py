@@ -43,6 +43,11 @@ while 1 > 0:
     print("input 1 to create a new listing")
     print("--------------------------------------")
     print("input 2 to view the current list")
+    print("--------------------------------------")
+    print("input 3 to view the avalible commands (but you already know that)")
+    print("--------------------------------------")
+    print("Type 4 to create a note")
+
   if selection == "delete":
     print(masterlist)
     remove = input("please input the number of the password you would like to remove (reminder 1 is 0 in python")
